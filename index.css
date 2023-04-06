@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: aqua;
+
+}
+
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.trafalgar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.navbar_list {
+    display: flex;
+}
+
+.navbar_list li {
+    padding-left: 50px;
+}
+
+
+.virtual {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.virtual h2 {
+    width: 427px;
+    height: 112px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.virtual p {
+    margin-bottom: 50px;
+    width: 445px;
+    height: 96px;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+}
+
+button {
+    width: 200px;
+    height: 56px;
+    background: #27dcdc;
+    border-radius: 55px;
+    color: #fff;
+    border: none;
+   margin-left: 450px;
+   margin-top: 30px;
+}
+
+.virtual img {
+    width: 100%;
+    margin-left: 50px;
+}
+
+.cricle h2 {
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.cricle p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #7D7987;
+}
+
+.cricle span {
+    width: 56px;
+    height: 5px;
+    background-color: #000000;
+}
+
+.online {
+    box-shadow: 10px 40px 50px rgba(209, 215, 236, 0.4);
+    border-radius: 20px;
+    width: 350px;
+    height: 354px;
+}
+
+.online img {
+    margin: 40px 60px;
+}
+
+.emergancy {
+    box-shadow: 10px 40px 50px rgba(183, 196, 241, 0.4);
+    border-radius: 20px;
+    width: 350px;
+    height: 354px;
+}
+
+.emergancy p {
+    width: 261px;
+    height: 84px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+}
+
+.emergancy img {
+    margin: 40px 60px;
+}
+
+.tracking {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
